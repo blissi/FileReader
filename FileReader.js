@@ -250,7 +250,7 @@
       emitter.on('load', function () {
         doop(self.onload, arguments);
       });
-      emitter.on('end', function () {
+      emitter.on('loadend', function () {
         doop(self.onloadend, arguments);
       });
       emitter.on('abort', function () {
